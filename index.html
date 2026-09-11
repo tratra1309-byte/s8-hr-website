@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TPJ | S8 - Chiêu mộ nhân tài">
+  <title>TPJ | S8 — Chiêu Mộ Nhân Tài</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="stars"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#">
+      <img class="brand-logo" src="assets/tpj-s8-logo.png" alt="TPJ | S8">
+      <div class="brand-copy">
+        <small>TUYỂN DỤNG ONLINE</small>
+      </div>
+    </a>
+
+    <nav>
+      <a href="#jobs">Vị trí</a>
+      <a href="#benefits">Phúc lợi</a>
+      <a href="#apply">Ứng tuyển</a>
+      <a href="#about">Về HR</a>
+    </nav>
+
+    <a class="telegram-btn" href="https://t.me/S8HR1" target="_blank" rel="noopener">
+      Telegram @S8HR1
+    </a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <div class="eyebrow">TPJ | S8 · RECRUITMENT</div>
+        <h1>CHIÊU MỘ<br><span>NHÂN TÀI</span></h1>
+        <p class="hero-sub">Cơ hội mới · Thu nhập tốt · Đồng hành lâu dài</p>
+        <p class="hero-desc">
+          TPJ | S8 đang tìm kiếm những nhân sự có năng lực, tinh thần cầu tiến
+          và mong muốn phát triển trong môi trường làm việc online chuyên nghiệp.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#jobs">Xem vị trí đang tuyển</a>
+          <a class="btn ghost" href="https://t.me/S8HR1" target="_blank" rel="noopener">Liên hệ HR</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><strong>08</strong><span>Vị trí</span></div>
+          <div class="stat"><strong>23M</strong><span>Thu nhập Sale 02</span></div>
+          <div class="stat"><strong>2.000$</strong><span>Leader Sale / HLV</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="visual-frame">
+          <div class="visual-glow"></div>
+          <div class="visual-content">
+            <div class="mini-logo">S8<span>⚽</span></div>
+            <div class="visual-title">GOOD PEOPLE<br><em>GOOD INCOME</em></div>
+            <div class="visual-card">
+              <span>HR SHAN SHAN</span>
+              <b>@S8HR1</b>
+            </div>
+            <div class="floating-chip chip-a">THU NHẬP ỔN ĐỊNH</div>
+            <div class="floating-chip chip-b">PHÁT TRIỂN BẢN THÂN</div>
+            <div class="floating-chip chip-c">LÀM VIỆC ONLINE</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="jobs" class="section">
+      <div class="section-heading reveal">
+        <span class="section-kicker">CƠ HỘI DÀNH CHO BẠN</span>
+        <h2>Vị trí đang chờ bạn</h2>
+        <p>Chọn vị trí phù hợp và liên hệ HR để nhận thông tin chi tiết.</p>
+      </div>
+      <div id="job-grid" class="job-grid"></div>
+    </section>
+
+    <section id="benefits" class="section benefits-section">
+      <div class="section-heading reveal">
+        <span class="section-kicker">ĐỒNG HÀNH DÀI HẠN</span>
+        <h2>Chế độ & phúc lợi</h2>
+      </div>
+      <div class="benefit-grid">
+        <div class="benefit reveal"><div class="benefit-icon">⌁</div><h3>Hỗ trợ Internet</h3><p>Hỗ trợ chi phí Internet hàng tháng.</p><b>1M / tháng</b></div>
+        <div class="benefit reveal"><div class="benefit-icon">♡</div><h3>Hỗ trợ nuôi con</h3><p>Chính sách hỗ trợ theo số lượng con.</p><b>1M / con / tháng</b></div>
+        <div class="benefit reveal"><div class="benefit-icon">★</div><h3>Thưởng sinh nhật</h3><p>Quà mừng sinh nhật dành cho nhân sự.</p><b>1M</b></div>
+        <div class="benefit reveal"><div class="benefit-icon">✦</div><h3>Thưởng thâm niên</h3><p>Ghi nhận sự gắn bó và đóng góp.</p><b>10M / 6 tháng</b></div>
+        <div class="benefit reveal"><div class="benefit-icon">↗</div><h3>HH & KPI</h3><p>Thu nhập gắn với năng lực và hiệu quả.</p><b>Chính sách hấp dẫn</b></div>
+        <div class="benefit reveal"><div class="benefit-icon">∞</div><h3>Cơ hội phát triển</h3><p>Lộ trình nâng cao nghiệp vụ và quản lý.</p><b>Đồng hành lâu dài</b></div>
+      </div>
+    </section>
+
+
+    <section id="apply" class="section apply-section">
+      <div class="section-heading reveal">
+        <span class="section-kicker">GỬI HỒ SƠ</span>
+        <h2>Ứng tuyển trực tiếp</h2>
+        <p>Điền thông tin bên dưới. Hồ sơ sẽ được chuyển thẳng về Telegram HR.</p>
+      </div>
+      <form id="apply-form" class="apply-form reveal">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" class="honeypot" aria-hidden="true">
+        <div class="form-grid">
+          <label>Họ và tên<input name="name" required maxlength="80" placeholder="Nguyễn Văn A"></label>
+          <label>Số điện thoại<input name="phone" required maxlength="30" placeholder="09xxxxxxxx"></label>
+          <label>Telegram<input name="telegram" maxlength="80" placeholder="@username"></label>
+          <label>Vị trí ứng tuyển<select name="position" required>
+            <option value="">-- Chọn vị trí --</option>
+            <option>SALE ONLINE 1 — 10M – 15M</option>
+            <option>SALE ONLINE 2 — 15M – 23M</option>
+            <option>HR ONLINE — 12M + KPI</option>
+            <option>LEADER TRUYỀN THÔNG — 14M – MAX 20M</option>
+            <option>TELESALE — 600$ – MAX 1.000$</option>
+            <option>LEADER TELESALE — 1.500$ – 1.800$</option>
+            <option>ĐẠI LÝ — 40% – 70% HH</option>
+            <option>LEADER SALE / HLV SALE — 1.500$ – 2.000$</option>
+          </select></label>
+          <label>Kinh nghiệm<textarea name="experience" maxlength="1200" placeholder="Ví dụ: 2 năm Sale, từng làm Leader..."></textarea></label>
+          <label>Ghi chú<textarea name="note" maxlength="1200" placeholder="Thời gian có thể bắt đầu, mong muốn công việc..."></textarea></label>
+        </div>
+        <button class="btn primary submit-btn" type="submit">GỬI HỒ SƠ VỀ HR</button>
+        <p id="form-status" class="form-status" role="status"></p>
+      </form>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="about-panel reveal">
+        <div>
+          <span class="section-kicker">YOUR HR CONTACT</span>
+          <h2>HR SHAN SHAN</h2>
+          <p>Phụ trách tiếp nhận hồ sơ, tư vấn vị trí và hỗ trợ ứng viên trong quá trình tuyển dụng.</p>
+        </div>
+        <a class="btn primary" href="https://t.me/S8HR1" target="_blank" rel="noopener">Telegram @S8HR1</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>TPJ | S8</strong> · CHIÊU MỘ NHÂN TÀI</div>
+    <a href="https://t.me/S8HR1" target="_blank" rel="noopener">@S8HR1</a>
+  </footer>
+
+  <div id="job-modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-box">
+      <button class="modal-close" data-close>×</button>
+      <span class="section-kicker">CHI TIẾT VỊ TRÍ</span>
+      <h2 id="modal-title"></h2>
+      <div id="modal-salary" class="modal-salary"></div>
+      <p id="modal-desc"></p>
+      <a id="modal-apply" class="btn primary" href="https://t.me/S8HR1" target="_blank" rel="noopener">Ứng tuyển qua Telegram</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
