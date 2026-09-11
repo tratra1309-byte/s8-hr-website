@@ -35,7 +35,7 @@ const jobs = [
     desc: "Mô hình hợp tác với chính sách hoa hồng hấp dẫn, phù hợp cá nhân/đối tác muốn phát triển nguồn thu."
   },
   {
-    title: "LEADER SALE / HLV SALE",
+    title: "TỔ TRƯỞNG SALE / HLV SALE",
     salary: "1.500$ – 2.000$",
     desc: "Quản lý và đào tạo đội ngũ Sale, xây dựng kế hoạch phát triển nhân sự và kiểm soát hiệu suất team."
   }
