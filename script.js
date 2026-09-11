@@ -56,7 +56,7 @@ jobs.forEach((job, i) => {
   card.innerHTML = `
     <div class="job-top">
       <div>
-        <div class="job-index">0${i + 1} · OPEN POSITION</div>
+        <div class="job-index">0${i + 1} · Vị Trí Tuyển Dụng</div>
         <h3>${job.title}</h3>
       </div>
 
